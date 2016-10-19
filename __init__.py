@@ -1,23 +1,16 @@
 import requests
 import time
 
-token = "b57525a077c8013438f43124fac83569"
-#  League of Linguistics
-#  botid = "8d4ee1cd0294e9e2e25a0e8340"
-#  groupid = "26060309"
-#  ECE 298
-#  botid = "0b486653fc5b82d4ec60f2f270"
-#  groupid = "25575328"
-#  testgroup
-botid = "9f7512528840902e29bcd898c4"
-groupid = "26077113"
+token = "<TOKEN HERE>"
+botid = "<BOTID HERE>"
+groupid = "<GROUPID HERE>"
 
 
-owner = "Duke Vijit"
+owner = "<CHAT OWNER NAME>"
 mods = []
 members = {}
 perms = {'kick': False, 'add': True, 'censor': False}
-triggers = ['hell', 'crap', 'fuck']
+triggers = []
 
 
 def post_message(message):
